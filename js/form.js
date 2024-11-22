@@ -57,7 +57,8 @@ async function submitForm() {
     message: document.getElementById('message').value
   };
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzxzA5mo7ROysXVGDFZ43ZtBGt0-51_l7WTXpHsxLWUCUCdD1BJSKf2t55sFPxPTtdu/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxIIAnKxGZb2-RSuigGqmxv_JjlcozjcmHjAGSmxHa5q-6saQj31AFcvGv8Oqk8xJEvHg/exec';
+  // const scriptURL = 'https://script.google.com/macros/s/AKfycbzxzA5mo7ROysXVGDFZ43ZtBGt0-51_l7WTXpHsxLWUCUCdD1BJSKf2t55sFPxPTtdu/exec';
   const requestBody = new URLSearchParams(formData).toString();
 
   try {
